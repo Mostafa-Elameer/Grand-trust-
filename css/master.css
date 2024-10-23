@@ -1,0 +1,115 @@
+
+
+
+@font-face {
+    font-family: 'body';
+    src: url(./../assets/static/Cairo-SemiBold.ttf);
+}
+
+body{
+    background-color: #fdfdfb;
+    font-family: 'body';
+}
+
+
+
+nav li {
+    position: relative;
+    transition: all 1s;
+  }
+  nav .nav-link::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: wheat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.4s;
+  }
+  
+  .active{
+    color: white !important;
+  }
+  nav li .nav-link.active::after {
+    content: "";
+    width: 90%;
+    height: 2px;
+    background-color: rgb(251, 251, 251);
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 3px;
+  }
+  
+  
+  
+/* ==== nav ==== */
+header.navbar {
+
+    background-color:#0d0d0cda;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header.navbar a {
+    color: white;
+}
+
+header.navbar a:hover {
+    color: white !important;
+}
+
+/* ==== home ==== */
+
+
+.home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.147)),url(./../assets/img/bghome.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 100vh;
+    /* transform:scaleZ() ; */
+border-radius: 0% 0% 20% 0%;
+}
+
+.article-home{
+
+
+    background-color: #0d0d0c91;
+    color: white;
+}
+
+
+/* ==== about ==== */
+
+.p-about {
+    line-height: 2rem    ;
+}
+.w-85{
+    width: 85%;
+}
+
+/* ==== contact ==== */
+.contact{
+    background-color: red;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.584), rgba(0, 0, 0, 0.578)), url(./../assets/img/bghome.jpg)  ;
+background-size: cover;}
+
+
+
+/* ==== footer ==== */
+
+footer{
+    height: 10vh;
+    background-color:#0d0d0cda;
+}
+
+.footer a {
+    
+        text-decoration: none;
+}
