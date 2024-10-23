@@ -8,6 +8,10 @@ body {
   font-family: "body";
 }
 
+a {
+  text-decoration: none;
+}
+
 nav li {
   position: relative;
   transition: all 1s;
@@ -104,8 +108,4 @@ header.navbar a:hover {
 footer {
   height: 10vh;
   background-color: #0d0d0cda;
-}
-
-.footer a {
-  text-decoration: none;
 }
