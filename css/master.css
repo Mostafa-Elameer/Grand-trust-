@@ -41,6 +41,15 @@ nav li .nav-link.active::after {
   left: 3px;
 }
 
+.navbar .dropdown-item {
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar .dropdown-item:hover {
+  color: #0b0b0b !important;
+}
+
 /* ==== nav ==== */
 header.navbar {
   background-color: #0d0d0cda;

@@ -9,5 +9,5 @@ var typed = new Typed("#text-", {
   typeSpeed: 70,
   loop: true,
   loopCount: Infinity,
-  backSpeed: 30,
+  backSpeed: 40,
 });
