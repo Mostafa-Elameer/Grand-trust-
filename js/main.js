@@ -8,3 +8,6 @@ var typed = new Typed("#text-", {
     loopCount: Infinity,
     backSpeed: 30,
 });
+
+
+

@@ -3,3 +3,26 @@
     height: 100vh;
     background-color: aquamarine;
 }
+.out-nav{
+    margin-top: 5rem;
+}
+.img-cov1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.678)),url(./../assets/img/novila-misastra-4BTjXeMwcb8-unsplash.jpg);
+
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.w-90
+{
+    width: 90%;
+}
+.img-cov2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.678)),url(./../assets/img/konoz-about-us.jpg);
+
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
