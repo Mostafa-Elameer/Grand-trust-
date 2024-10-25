@@ -86,8 +86,8 @@ header.navbar a:hover {
 }
 
 .article-home {
-  background-color: #0d0d0c91;
-  color: white;
+  /* background-color: #0d0d0c91; */
+  color: black;
 }
 
 /* ==== about ==== */
