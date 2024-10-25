@@ -79,10 +79,6 @@ header.navbar a:hover {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-
-  height: 100vh;
-  /* transform:scaleZ() ; */
-  border-radius: 0% 0% 20% 0%;
 }
 
 .article-home {
