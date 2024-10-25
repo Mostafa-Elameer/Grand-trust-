@@ -30,6 +30,10 @@ nav .nav-link::after {
 .active {
   color: white !important;
 }
+
+header.navbar {
+  background-color: black !important;
+}
 nav li .nav-link.active::after {
   content: "";
   width: 90%;
